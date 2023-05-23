@@ -5,7 +5,7 @@ st.header("by Charlie")
 
 
 
-key = st.text('key: ')
+key = st.text_input('key: ')
 
 
 def data():
