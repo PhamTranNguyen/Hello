@@ -26,7 +26,7 @@ while True:
         st.text("Invalid choice. Please enter 1 or 2.")
     break  
 
-message =  st.text.input('please enter your Message: ')
+message =  st.text_input('please enter your Message: ')
 
 for character in message:
   if character in alphabet:
