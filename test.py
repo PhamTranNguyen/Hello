@@ -4,6 +4,9 @@ st.title("Ceasar Cipher")
 st.header("by Charlie")
 
 
+st.text_input('First name')
+
+
 def data():
 	st.text('thank')
 
