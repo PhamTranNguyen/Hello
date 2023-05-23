@@ -4,7 +4,8 @@ st.title("Ceasar Cipher")
 st.header("by Charlie")
 
 
-st.text_input('Key')
+
+key = st.text('key: ')
 
 
 def data():
