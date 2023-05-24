@@ -13,18 +13,18 @@ st.text("Deciphering or Encrypting")
 st.text("1. Deciphering")
 st.text("2. Encrypting")
 
-def Encrypt():
+def encrypt():
 	key = key * -1
 	st.text('Encrypting...')
 
 if st.button('Encrypting'):
-	Encrypt()
+	encrypt()
 	
-def data():
+def decipher():
 	st.text('Deciphering...')
 
 if st.button("Deciphering..."):
-	data()
+	decipher()
 	
 
 message =  st.text_input('please enter your Message: ')
