@@ -12,18 +12,21 @@ newMessage = ''
 st.text("Deciphering or Encrypting")
 st.text("1. Deciphering")
 st.text("2. Encrypting")
+
+def Encrypt():
+	key = key * -1
+	st.text('Encrypting...')
+
+if st.button('Encrypting'):
+	Encrypt()
+	
+def data():
+	st.text('Deciphering...')
+
+if st.button("Deciphering..."):
+	data()
+	
 choice = st.number_input("Enter your choice (1 or 2): ")
-
-if choice == "1":
-  
-    st.text("Decyphering...")
-  
-elif choice == "2":
-  key = key * -1
-  st.text("Encrypting...")
-
-else:
-    st.text("Invalid choice. Please enter 1 or 2.")
 
 message =  st.text_input('please enter your Message: ')
 
@@ -40,8 +43,4 @@ for character in message:
 
 st.text(newMessage)
 
-def data():
-	st.text('thank')
 
-if st.button("pls click"):
-	data()
