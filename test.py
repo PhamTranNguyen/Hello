@@ -31,7 +31,7 @@ for character in message:
   if character in alphabet:
     position = alphabet.find(character)
     newPosition = (position + key) % 26
-    newCharacter = alphabet[newPosition]
+    newCharacter = alphabet(newPosition)
     #print('the new Character is:', newCharacter)
     newMessage += newCharacter
   
