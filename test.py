@@ -26,7 +26,6 @@ def data():
 if st.button("Deciphering..."):
 	data()
 	
-choice = st.number_input("Enter your choice (1 or 2): ")
 
 message =  st.text_input('please enter your Message: ')
 
