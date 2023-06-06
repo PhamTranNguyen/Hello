@@ -28,7 +28,7 @@ def encrypt(keys,message):
         newMessage += newCharacter
 
       else:
-        newMessage += newCharacter
+        newMessage += character
 
     st.write('Your message is   :',newMessage)
 
