@@ -15,7 +15,6 @@ st.text("Deciphering or Encrypting")
 
 
 def encrypt(keys,message):
-    st.text('Encrypting...')
     keys = (keys * -1)
     newMessage = ''
     for character in message:
@@ -35,7 +34,6 @@ if st.button('Encrypting'):
 	encrypt(keys,message)
 	
 def decipher():
-  st.text('Deciphering...')
   newMessage = ''
   for character in message:
     if character in alphabet:
