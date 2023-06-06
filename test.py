@@ -13,7 +13,6 @@ message =  st.text_input('please enter your Message: ')
     
 st.text("Deciphering or Encrypting")
 
-st.write(message)
 
 def encrypt(keys,message):
     st.text('Encrypting...')
