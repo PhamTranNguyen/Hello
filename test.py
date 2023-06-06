@@ -13,7 +13,7 @@ st.text("Deciphering or Encrypting")
 st.text("1. Deciphering")
 st.text("2. Encrypting")
 
-def encrypt():
+def encrypt(key):
 	key = key * -1
 	st.text('Encrypting...')
 
