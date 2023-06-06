@@ -13,6 +13,8 @@ message =  st.text_input('please enter your Message: ')
     
 st.text("Deciphering or Encrypting")
 
+st.write(message)
+
 def encrypt(keys,message):
     st.text('Encrypting...')
     keys = (keys * -1)
@@ -24,10 +26,9 @@ def encrypt(keys,message):
         newCharacter = alphabet[newPosition]
         #print('the new Character is:', newCharacter)
         newMessage += newCharacter
-    
 
-    else:
-      newMessage += character
+      else:
+        newMessage += newCharacter
 
     st.write('Your message is   :',newMessage)
 
